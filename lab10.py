@@ -1,7 +1,7 @@
 import datetime, textwrap
 
 
-def ruslankonoz():
+def ArtemUgrimov():
 	# Open function to avoid errors
 	def Open(name, mode):
 		try:
@@ -18,7 +18,7 @@ def ruslankonoz():
 
 	def Write(file):
 		# write the message into the file
-		name = input("What is your name?\n")
+		name = input("Do you like Python?\n")
 		answer = input("Enter your message:\n")
 
 		# Format the message and write it into the file
@@ -53,4 +53,6 @@ def ruslankonoz():
 
 
 if __name__ == "__main__":
-	ruslankonoz()
+	ArtemUgrimov()
+
+
